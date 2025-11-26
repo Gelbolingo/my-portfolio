@@ -287,7 +287,9 @@
   text-decoration: none;
   font-weight: 600;
   transition: all 0.3s ease;
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .download-cv-btn:hover {
@@ -901,8 +903,31 @@ main {
 }
 
 @media (max-width: 600px) {
+  .hero {
+    padding: 1.5rem 1rem 2rem;
+    min-height: auto;
+  }
+
+  .nav-bar {
+    margin-bottom: 2rem;
+  }
+
   .hero-cta {
     flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+
+  .download-cv-btn {
+    width: auto;
+    align-self: center;
+    margin: 0 auto;
+  }
+
+  .social-icons {
+    justify-content: center;
   }
 
   .panel {
@@ -911,7 +936,7 @@ main {
 
   .scroll-to-top {
     bottom: 1.5rem;
-    left: 1.5rem;
+    right: 1.5rem;
     width: 45px;
     height: 45px;
     font-size: 1.3rem;
