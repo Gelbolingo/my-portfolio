@@ -106,6 +106,7 @@ const socialLinks = [
 function HomePage() {
   const navigate = useNavigate();
   const [showScrollTop, setShowScrollTop] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -131,9 +132,23 @@ function HomePage() {
           <div className="logo-container">
             <p className="logo">Unreal Graphics</p>
           </div>
-          <div className="nav-links">
+          <button
+            className={`menu-toggle ${menuOpen ? 'open' : ''}`}
+            onClick={() => setMenuOpen((prev) => !prev)}
+            aria-label="Toggle navigation"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <div className={`nav-links ${menuOpen ? 'open' : ''}`}>
             {navItems.map((item) => (
-              <a key={item.label} href={item.href} className="nav-link">
+              <a
+                key={item.label}
+                href={item.href}
+                className="nav-link"
+                onClick={() => setMenuOpen(false)}
+              >
                 {item.label}
               </a>
             ))}
@@ -225,7 +240,7 @@ function HomePage() {
                 <div className="card-content">
                   <p className="card-category">{folder.title}</p>
                   <h3>{folder.title}</h3>
-                  <p>Click the folder to peek at the shots, or jump into the full case study below.</p>
+                  <p>Open the folder to explore my featured designs and projects.</p>
                   <button
                     type="button"
                     className="card-link"
