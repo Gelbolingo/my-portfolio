@@ -95,7 +95,7 @@ const navItems = [
 
 const socialLinks = [
   { name: 'Facebook', icon: 'f', url: 'https://web.facebook.com/YuriYuukari' },
-  { name: 'Twitter', icon: '𝕏', url: 'https://x.com/Urydope' },
+  { name: 'Twitter', icon: '𝕏', url: '' },
   { name: 'Instagram', icon: '📷', url: 'https://www.instagram.com/yuri_yukari99' },
   { name: 'LinkedIn', icon: 'in', url: 'https://www.linkedin.com/in/ury-gelbolingo-29269631b' },
   { name: 'Email', icon: '✉', url: 'mailto:urygelbolingo5@gmail.com' },

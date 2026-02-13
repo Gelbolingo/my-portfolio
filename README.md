@@ -1,16 +1,70 @@
-# React + Vite
+# Ury Gelbolingo - Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio website! This project showcases my skills and passion as a programming professional with a strong focus on graphic design.
 
-Currently, two official plugins are available:
+## About Me
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[Placeholder for your personal introduction. Talk about your background, what drives you, your interests in programming and graphic design, and your career aspirations.]
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This portfolio is built using modern web technologies to deliver a dynamic and engaging user experience.
 
-## Expanding the ESLint configuration
+*   **Frontend:** [List key frontend technologies, e.g., React, JavaScript, HTML5, CSS3, Motion (animation library)]
+*   **Styling:** [List styling frameworks/methodologies, e.g., CSS Modules, Tailwind CSS, Styled Components]
+*   **Animations:** [Mention specific animation libraries or techniques, e.g., Motion, CSS Transitions/Keyframes, Gooey effects]
+*   **Build Tool:** [e.g., Vite]
+*   **Deployment:** [e.g., Vercel]
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+[Add any other relevant tools or languages you use.]
+
+## My Work
+
+Explore my projects and graphic design creations on the live website:
+
+[Link to live portfolio website - Placeholder for now]
+
+---
+
+### Getting Started (for Developers)
+
+This section is for developers who want to set up and run the project locally.
+
+**Prerequisites:**
+
+*   Node.js (LTS version recommended)
+*   npm or yarn
+
+**Installation:**
+
+1.  Clone the repository:
+    ```bash
+    git clone [Your Repository URL]
+    cd unrealgraphics-portfolio
+    ```
+2.  Install dependencies:
+    ```bash
+    npm install
+    # or
+    yarn install
+    ```
+
+**Running Locally:**
+
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+This will start the development server, usually at `http://localhost:5173`.
+
+**Build for Production:**
+
+```bash
+npm run build
+# or
+yarn build
+```
+
+This command bundles the application into static files for production deployment.
