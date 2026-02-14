@@ -220,7 +220,7 @@ function HomePage() {
               <div className="project-counter">
                 <span className="project-counter-label">Project</span>
                 <span className="project-counter-value">
-                  00 | {String(projectCount).padStart(2, '0')}
+                  02 | {String(projectCount).padStart(2, '0')}
                 </span>
               </div>
             </div>
