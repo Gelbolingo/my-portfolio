@@ -1,0 +1,7 @@
+.decrypted-text {
+  display: inline;
+}
+
+.decrypted-text--revealed {
+  /* Optional: subtle transition when fully revealed */
+}

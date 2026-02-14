@@ -4,25 +4,23 @@ Welcome to my personal portfolio website! This project showcases my skills and p
 
 ## About Me
 
-[Placeholder for your personal introduction. Talk about your background, what drives you, your interests in programming and graphic design, and your career aspirations.]
+Crafting meaningful visuals through design, creativity, and storytelling. I'm a creative person with a passion for design, gaming, reading, and cycling. I enjoy crafting visuals and exploring new aesthetics, drawing inspiration from the stories I read and the games I play. Cycling gives me the freedom to clear my mind and stay active, balancing my creativity with adventure.
 
 ## Tech Stack
 
-This portfolio is built using modern web technologies to deliver a dynamic and engaging user experience.
+This portfolio is built using modern technologies to deliver a dynamic and engaging user experience.
 
-*   **Frontend:** [List key frontend technologies, e.g., React, JavaScript, HTML5, CSS3, Motion (animation library)]
-*   **Styling:** [List styling frameworks/methodologies, e.g., CSS Modules, Tailwind CSS, Styled Components]
-*   **Animations:** [Mention specific animation libraries or techniques, e.g., Motion, CSS Transitions/Keyframes, Gooey effects]
-*   **Build Tool:** [e.g., Vite]
-*   **Deployment:** [e.g., Vercel]
-
-[Add any other relevant tools or languages you use.]
+*   **Programming Languages:** Java, Python, C#
+*   **Web Technologies:** HTML, CSS, JavaScript, ReactJs, Php, Node.js
+*   **Tools & Databases:** Git/GitHub, MySQL, Unity
+*   **Design Tools:** Photoshop, Illustrator, Figma, Canva
+*   **Frameworks:** Flutter
 
 ## My Work
 
 Explore my projects and graphic design creations on the live website:
 
-[Link to live portfolio website - Placeholder for now]
+https://gelbolingo.vercel.app/
 
 ---
 

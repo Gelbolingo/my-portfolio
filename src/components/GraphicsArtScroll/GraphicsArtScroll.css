@@ -1,0 +1,41 @@
+/* Full images, horizontal scroll – roshan-sahu style */
+.graphics-art-scroll {
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+  -webkit-overflow-scrolling: touch;
+}
+
+.graphics-art-scroll-track {
+  display: flex;
+  gap: 2rem;
+  width: max-content;
+  padding: 0.5rem 0;
+}
+
+.graphics-art-scroll-item {
+  flex-shrink: 0;
+  width: min(85vw, 700px);
+  max-height: 75vh;
+  border-radius: 8px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.graphics-art-scroll-item img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 75vh;
+  object-fit: contain;
+  object-position: center;
+}
+
+@media (max-width: 768px) {
+  .graphics-art-scroll-item {
+    width: min(90vw, 500px);
+  }
+}

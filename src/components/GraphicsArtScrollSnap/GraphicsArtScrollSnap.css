@@ -1,0 +1,30 @@
+/* Stacked cards effect – sticky cards stack on scroll */
+.graphics-art-stacked-wrap {
+  position: relative;
+  margin-top: 2rem;
+  /* Tall enough for each card to scroll into place */
+  min-height: calc(var(--card-count, 9) * 90vh);
+}
+
+.graphics-art-stacked-card {
+  position: sticky;
+  top: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  /* Slight offset per card so edges of cards below peek through */
+  transform: translateY(calc((var(--card-index, 0) * 12px)));
+}
+
+.graphics-art-stacked-card img {
+  max-width: 85%;
+  max-height: 70vh;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  border-radius: 12px;
+  box-shadow: 0 25px 80px rgba(0, 0, 0, 0.5);
+  background: rgba(255, 255, 255, 0.03);
+}

@@ -1,0 +1,76 @@
+.work-marquee {
+  overflow: hidden;
+  width: 100%;
+  margin: 1rem 0;
+  user-select: none;
+}
+
+.work-marquee-track {
+  display: flex;
+  gap: 1.5rem;
+  width: max-content;
+  will-change: transform;
+}
+
+.work-marquee-card {
+  flex-shrink: 0;
+  width: 320px;
+  text-decoration: none;
+  color: inherit;
+  border-radius: 1rem;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.work-marquee-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+.work-marquee-img-wrap {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  background: #111;
+}
+
+.work-marquee-img-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.work-marquee-info {
+  padding: 1rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.work-marquee-cat {
+  font-size: 0.7rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.work-marquee-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.work-marquee-link {
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+  letter-spacing: 0.1em;
+  color: var(--accent, #ffd700);
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+
+.work-marquee-link:hover {
+  opacity: 0.8;
+}

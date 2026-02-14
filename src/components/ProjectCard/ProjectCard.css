@@ -1,0 +1,38 @@
+.project-card-wrapper {
+  cursor: pointer;
+  perspective: 1000px; /* Needed for TiltedCard's 3D effect */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+  padding: 1.5rem;
+  border-radius: 1.25rem;
+  background: rgba(16, 6, 30, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: inset 0 0 30px rgba(139, 77, 255, 0.05);
+  transition: all 0.3s ease;
+  height: 100%; /* Ensure cards in a grid have consistent height */
+}
+
+.project-card-wrapper:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(139, 77, 255, 0.3);
+}
+
+.project-card-info {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.project-card-info h3 {
+  font-size: 1.25rem;
+  color: #fff;
+  margin: 0 0 0.5rem;
+}
+
+.project-card-info p {
+  font-size: 0.9rem;
+  color: #d5c1ff;
+  margin: 0;
+}
